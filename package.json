@@ -1,13 +1,12 @@
 {
-    "name:": "test-node",
+    "name": "test-node",
     "version": "1.0.0",
-    "description": "This is a test node project",
-    "main": "main.js",
-
+    "description": "This is a test node project.",
+    "main": "diamond.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" 66 exit",
-        "start": "node."
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ."
     },
-    "author": "Rajan Paul Francisco",
+    "author": "Rajan Paul D Francisco",
     "license": "BSIT"
 }
